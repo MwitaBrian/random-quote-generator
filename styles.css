@@ -36,3 +36,9 @@ body {
   font-size: 84px;
   color: var(--secondary-color);
 }
+
+.quote {
+  text-align: center;
+  font-style: italic;
+  color: var(--primary-color);
+}
