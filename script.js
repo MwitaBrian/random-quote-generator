@@ -1,3 +1,4 @@
 const getQuote = async () => {
-  await fetch('https://type.fit/api/quotes')
+  const res = await fetch('https://type.fit/api/quotes')
+  const quotes= await res.json();
 }
