@@ -1,6 +1,7 @@
 const text = document.querySelector('.quote');
 const author = document.querySelector('.author');
-const nextBtn = document.querySelector('.next')
+const nextBtn = document.querySelector('.next');
+const tweetBtn = document.querySelector('.twitter-share-button');
 
 const getQuote = async () => {
   const res = await fetch('https://type.fit/api/quotes')
