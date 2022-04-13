@@ -1,6 +1,6 @@
 # Random Quote Generator
 
-Delani Studio is a top class studio for start-ups and businesses in Kenya. We offer services of design, product development and product management. This studio web application is designed using jQuery, Javascript, HTML & CSS technologies.
+Random Quote Generator is a simple project that generates a random using quotes API as the data source.User can navigate to a different random quote using Next button. The User can also share the quote on Twitter using the Tweet button. This application is designed using Javascript, HTML & CSS technologies.
 
 ## Technologies Used
 
