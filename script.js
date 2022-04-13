@@ -1,3 +1,6 @@
+const text = document.querySelector('.quote');
+const author = document.querySelector('.author');
+
 const getQuote = async () => {
   const res = await fetch('https://type.fit/api/quotes')
   const quotes = await res.json();
