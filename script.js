@@ -13,6 +13,7 @@ const getQuote = async () => {
   text.innerText = quote;
   author.innerText = authorName
   //console.log(item);
+  tweetBtn.href = `https://twitter.com/intent/tweet?text=${quote} - ${authorName}`
 }
 
 nextBtn.addEventListener('click', getQuote)
