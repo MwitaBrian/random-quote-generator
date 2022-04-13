@@ -1,3 +1,3 @@
-const getQuote = () => {
-  fetch('https://type.fit/api/quotes')
+const getQuote = async () => {
+  await fetch('https://type.fit/api/quotes')
 }
