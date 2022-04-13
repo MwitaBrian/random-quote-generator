@@ -1,5 +1,6 @@
 const text = document.querySelector('.quote');
 const author = document.querySelector('.author');
+const nextBtn = document.querySelector('.next')
 
 const getQuote = async () => {
   const res = await fetch('https://type.fit/api/quotes')
@@ -12,5 +13,7 @@ const getQuote = async () => {
   author.innerText = authorName
   //console.log(item);
 }
+
+nextBtn.addEventListener('click', getQuote)
 
 getQuote();
