@@ -8,6 +8,8 @@ const getQuote = async () => {
   const item = quotes[num];
   const quote = item.text;
   const authorName = item.author;
+  text.innerText = quote;
+  author.innerText = authorName
   //console.log(item);
 }
 
