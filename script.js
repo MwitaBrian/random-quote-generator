@@ -6,7 +6,9 @@ const getQuote = async () => {
   const quotes = await res.json();
   const num = Math.floor(Math.random()*quotes.length);
   const item = quotes[num];
-  console.log(item);
+  const quote = item.text;
+  const authorName = item.author;
+  //console.log(item);
 }
 
 getQuote();
